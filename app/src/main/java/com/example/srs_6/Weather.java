@@ -5,9 +5,9 @@ public class Weather {
     String we;
     public Weather(String date, String temp, String we)
     {
-        this.date= date;
-        this.temp= temp;
-        this.we= we;
+        this.date = date;
+        this.temp = temp;
+        this.we = we;
     }
     public String GetDate()
     {
@@ -15,7 +15,7 @@ public class Weather {
     }
     public void SetDate(String date)
     {
-        this.date= date;
+        this.date = date;
     }
     public String GetUrl()
     {
@@ -25,5 +25,4 @@ public class Weather {
     {
         return this.temp;
     }
-
 }
